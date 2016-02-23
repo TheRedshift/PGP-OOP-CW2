@@ -213,7 +213,7 @@ public class CW2 {
 
 
         ColorLabel dlabel1 = (new ColorLabel(100, 100,Color.YELLOW, 1, Color.DARK_GRAY));
-        gBC.weightx = 0.5;
+        
         gBC.gridx = 5;
         gBC.gridy = 0;
 
