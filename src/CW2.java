@@ -288,17 +288,6 @@ public class CW2 {
         pane.add(xlabel6, gBC);
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 
     public static void createGUI()
@@ -315,7 +304,7 @@ public class CW2 {
         frame.setVisible(true);
 
         //ASK ABOUT THIS
-        frame.setResizable(false);
+        //frame.setResizable(false);
         frame.setMinimumSize(frame.getSize());
         frame.setMaximumSize(frame.getSize());
 
