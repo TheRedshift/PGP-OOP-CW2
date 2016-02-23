@@ -16,7 +16,7 @@ public class CW2 {
         pane.setLayout(new GridBagLayout());
 
         GridBagConstraints gBC = new GridBagConstraints();
-        gBC.fill = GridBagConstraints.HORIZONTAL;
+        gBC.fill = GridBagConstraints.BOTH;
 
         ColorLabel label1 = (new ColorLabel(100, 100,Color.GREEN, 1, Color.DARK_GRAY));
         gBC.weightx = 0.5;
@@ -314,6 +314,10 @@ public class CW2 {
         frame.pack();
         frame.setVisible(true);
 
+        //ASK ABOUT THIS
+        frame.setResizable(false);
+        frame.setMinimumSize(frame.getSize());
+        frame.setMaximumSize(frame.getSize());
 
     }
 
