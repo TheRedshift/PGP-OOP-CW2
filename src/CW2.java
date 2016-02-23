@@ -304,7 +304,7 @@ public class CW2 {
     public static void createGUI()
     {
         //JFrame.setDefaultLookAndFeelDecorated(true);
-        JFrame frame = new JFrame("Rahul Soni");
+        JFrame frame = new JFrame("Rahul Soni - 4255222 ");
         frame.getContentPane().setBackground(Color.LIGHT_GRAY);
         frame.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
