@@ -51,7 +51,7 @@ public class ColorLabel extends JLabel
      * This is called by the system and your code needs to draw the component
      * @param g The graphics object that the systems gives you to draw to
      */
-    protected void paintComponent(Graphics g)
+    public void paintComponent(Graphics g)
     {
         //super.paintComponent(arg0);
         if ( borderColor != null )
