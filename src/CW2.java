@@ -57,6 +57,7 @@ public class CW2 {
 
 
 
+
         ColorLabel elabel1 = (new ColorLabel(20, 100,Color.LIGHT_GRAY, 1, Color.LIGHT_GRAY));
         gBC.weightx = 0.5;
         gBC.gridx = 1;
