@@ -69,8 +69,6 @@ public class CW2 {
                 }
 
 
-                System.out.println(pane.getComponents());
-
 
             }
         }
